@@ -66,28 +66,18 @@ No formal certificates — just **working code, real projects, and continuous le
 ## 🛠️ Featured Projects
 
 ### 🔍 AnomalyTrafficDetector *(2025)*
-> **Private Repository** – Unsupervised network anomaly detection with Isolation Forest. Detects zero-day attacks without labeled data.  
-> *Request access: [Mhre628@gmail.com](mailto:Mhre628@gmail.com)*
+> **Private Repository** – Unsupervised network anomaly detection with Isolation Forest. Detects zero-day attacks without labeled data.
+
+### 🧨 C2 Framework *(2025)*
+> **Private Repository** – Lightweight Command & Control framework with AI evasion, encrypted communication, and web dashboard.
 
 ### 🔒 SecureCodeAudit *(2025)*
-> **Private Repository** – Static code security analyzer for Python and C++. Detects eval(), os.system(), hardcoded secrets, SQL injection patterns.  
-> *Request access: [Mhre628@gmail.com](mailto:Mhre628@gmail.com)*
-
-### ⚙️ AutoExploit_Piper *(2025)*
-> **Private Repository** – Automated web vulnerability scanner with dynamic payload generation. Detects XSS, SQLi, LFI, SSTI.  
-> *Request access: [Mhre628@gmail.com](mailto:Mhre628@gmail.com)*
-
-### 🔒 OfflineGuardian *(2025)*
-> **Private Repository** – Offline intelligent intrusion alert system. Real-time attack detection without internet.  
-> *Request access: [Mhre628@gmail.com](mailto:Mhre628@gmail.com)*
-
-### 🧨 DeepPacket_Red *(2025)*
-> **Private Repository** – GAN-based network packet morphing for IDS/IPS evasion.  
-> *Request access: [Mhre628@gmail.com](mailto:Mhre628@gmail.com)*
+> **Private Repository** – Static code security analyzer for Python and C++. Detects eval(), os.system(), hardcoded secrets, SQL injection patterns.
 
 ### 🤖 Nobatvakil_LLM *(2025)*
-> **Private Repository** – Multi-agent LLM system that generates code autonomously. No external APIs, no pre-trained models.  
-> *Request access: [Mhre628@gmail.com](mailto:Mhre628@gmail.com)*
+> **Private Repository** – Multi-agent LLM system that generates code autonomously. No external APIs, no pre-trained models.
+
+> 📌 **For more projects, visit my [GitHub profile](https://github.com/mhrezaeii) and repositories.**
 ---
 
 ## 🗣️ Languages
