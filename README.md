@@ -65,8 +65,12 @@ No formal certificates — just **working code, real projects, and continuous le
 
 ## 🛠️ Featured Projects
 
+### ⚙️ AutoExploit_Piper *(2025)*
+> **Private Repository** – Automated web vulnerability scanner with dynamic payload generation. Detects XSS, SQLi, LFI, SSTI.  
+> *Request access: [Mhre628@gmail.com](mailto:Mhre628@gmail.com)*
+
 ### 🔒 OfflineGuardian *(2025)*
-> **Private Repository** – Offline intelligent intrusion alert system. Real-time attack detection without internet. Random Forest classifier with 20 packet features.  
+> **Private Repository** – Offline intelligent intrusion alert system. Random Forest classifier for real-time attack detection.  
 > *Request access: [Mhre628@gmail.com](mailto:Mhre628@gmail.com)*
 
 ### 🧨 DeepPacket_Red *(2025)*
@@ -77,9 +81,6 @@ No formal certificates — just **working code, real projects, and continuous le
 > **Private Repository** – Multi-agent LLM system that generates code autonomously. No external APIs, no pre-trained models.  
 > *Request access: [Mhre628@gmail.com](mailto:Mhre628@gmail.com)*
 
-### ⚙️ AutoExploit_Piper *(research)*
-> Automated web vulnerability exploitation chain with dynamic payload generation.
-> 
 ---
 
 ## 🗣️ Languages
