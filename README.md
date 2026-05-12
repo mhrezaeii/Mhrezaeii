@@ -66,17 +66,18 @@ No formal certificates — just **working code, real projects, and continuous le
 ## 🛠️ Featured Projects
 
 ### 🤖 Nobatvakil_LLM *(2025)*
-> Multi‑agent LLM system that generates code autonomously — **no external APIs, no pre‑trained models**. Built from scratch in Python.
+> **Private Repository** – Multi-agent LLM system that generates code autonomously. No external APIs, no pre-trained models. Built from scratch in Python.  
+> *Request access: [Mhre628@gmail.com](mailto:Mhre628@gmail.com)*
 
-### 📡 DeepPacket_Red *(planned 2025–2026)*
-> Intelligent network packet reinvention using deep learning to evade IDS/IPS. Focus on adversarial AI.
+### 🧨 DeepPacket_Red *(2025)*
+> **Private Repository** – GAN-based network packet morphing for IDS/IPS evasion.  
+> *Request access: [Mhre628@gmail.com](mailto:Mhre628@gmail.com)*
 
 ### 🔒 OfflineGuardian *(in progress)*
-> Offline intelligent intrusion alert system — recognises attack patterns without sending data outside.
+> Offline intelligent intrusion alert system for air-gapped environments.
 
 ### ⚙️ AutoExploit_Piper *(research)*
-> Automated web vulnerability exploitation chain with dynamic payload generation and pure Python.
-
+> Automated web vulnerability exploitation chain with dynamic payload generation.
 ---
 
 ## 🗣️ Languages
