@@ -65,6 +65,10 @@ No formal certificates — just **working code, real projects, and continuous le
 
 ## 🛠️ Featured Projects
 
+### 🔍 AnomalyTrafficDetector *(2025)*
+> **Private Repository** – Unsupervised network anomaly detection with Isolation Forest. Detects zero-day attacks without labeled data.  
+> *Request access: [Mhre628@gmail.com](mailto:Mhre628@gmail.com)*
+
 ### 🔒 SecureCodeAudit *(2025)*
 > **Private Repository** – Static code security analyzer for Python and C++. Detects eval(), os.system(), hardcoded secrets, SQL injection patterns.  
 > *Request access: [Mhre628@gmail.com](mailto:Mhre628@gmail.com)*
@@ -84,7 +88,6 @@ No formal certificates — just **working code, real projects, and continuous le
 ### 🤖 Nobatvakil_LLM *(2025)*
 > **Private Repository** – Multi-agent LLM system that generates code autonomously. No external APIs, no pre-trained models.  
 > *Request access: [Mhre628@gmail.com](mailto:Mhre628@gmail.com)*
-
 ---
 
 ## 🗣️ Languages
