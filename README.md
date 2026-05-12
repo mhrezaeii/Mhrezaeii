@@ -65,12 +65,16 @@ No formal certificates — just **working code, real projects, and continuous le
 
 ## 🛠️ Featured Projects
 
+### 🔒 SecureCodeAudit *(2025)*
+> **Private Repository** – Static code security analyzer for Python and C++. Detects eval(), os.system(), hardcoded secrets, SQL injection patterns.  
+> *Request access: [Mhre628@gmail.com](mailto:Mhre628@gmail.com)*
+
 ### ⚙️ AutoExploit_Piper *(2025)*
 > **Private Repository** – Automated web vulnerability scanner with dynamic payload generation. Detects XSS, SQLi, LFI, SSTI.  
 > *Request access: [Mhre628@gmail.com](mailto:Mhre628@gmail.com)*
 
 ### 🔒 OfflineGuardian *(2025)*
-> **Private Repository** – Offline intelligent intrusion alert system. Random Forest classifier for real-time attack detection.  
+> **Private Repository** – Offline intelligent intrusion alert system. Real-time attack detection without internet.  
 > *Request access: [Mhre628@gmail.com](mailto:Mhre628@gmail.com)*
 
 ### 🧨 DeepPacket_Red *(2025)*
