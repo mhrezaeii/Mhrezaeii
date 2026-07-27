@@ -28,7 +28,7 @@
 
 I design systems at the intersection of **cybersecurity**, **distributed systems**, and **artificial intelligence**—building long-lived infrastructure rather than short-lived applications.
 
-As Co-founder of **Dazho Studio**, I'm working toward an ecosystem of security and AI products that enables organizations to operate entirely on self-hosted infrastructure.
+I'm working toward an ecosystem of security and AI products that enables organizations to operate entirely on self-hosted infrastructure.
 
 ---
 
@@ -90,7 +90,6 @@ Enterprise Security Hypervisor — 14 Rust microservices evolving from SIEM into
 
 **Rust · React · PostgreSQL · Redis · NATS**
 
-→ [Repository](https://github.com/mhrezaeii) · [Architecture](https://github.com/mhrezaeii)
 
 ---
 
@@ -100,8 +99,6 @@ AI-powered secure edge platform combining WAF, CDN, load balancing, DDoS protect
 
 **Python · FastAPI · ML Ensembles · Docker · K8s**
 
-→ [Repository](https://github.com/mhrezaeii)
-
 ---
 
 ## 🔐 PAM — Privileged Access Management
@@ -109,8 +106,6 @@ AI-powered secure edge platform combining WAF, CDN, load balancing, DDoS protect
 Zero-trust PAM with credential vault, session proxy (SSH/RDP/DB), JIT access, and compliance tooling.
 
 **FastAPI · Next.js 15 · React 19 · PostgreSQL**
-
-→ [Repository](https://github.com/mhrezaeii)
 
 ---
 
@@ -120,8 +115,6 @@ Building a Persian legal foundation model — BPE tokenizer, GPT-style pretraini
 
 **PyTorch · Transformers · LoRA · llama.cpp**
 
-→ [Repository](https://github.com/mhrezaeii)
-
 ---
 
 ## 🖥️ Nexora — Virtual World OS
@@ -129,8 +122,6 @@ Building a Persian legal foundation model — BPE tokenizer, GPT-style pretraini
 A Virtual World Operating System for millions of concurrent users. Rust core with Go services and React web panel.
 
 **Rust · Go · TypeScript · gRPC · QUIC · ClickHouse · K8s**
-
-→ [Repository](https://github.com/mhrezaeii)
 
 ---
 
@@ -151,7 +142,7 @@ timeline
 
 # Other Projects
 
-`AnomalyTrafficDetector` · `DeepPacket_Red` · `SecureCodeAudit` · `AutoExploit_Piper` · `OfflineGuardian` · `MY_J.A.R.V.I.S.` · `360 ERP/EMS` · `Zero Day` · `Software Intelligence Platform` · `Nobatvakil AI`
+[`AnomalyTrafficDetector`](https://github.com/mhrezaeii/AnomalyTrafficDetector) · [`DeepPacket_Red`](https://github.com/mhrezaeii/DeepPacket_Red) · [`SecureCodeAudit`](https://github.com/mhrezaeii/SecureCodeAudit) · [`AutoExploit_Piper`](https://github.com/mhrezaeii/AutoExploit_Piper) · [`OfflineGuardian`](https://github.com/mhrezaeii/OfflineGuardian) · `MY_J.A.R.V.I.S.` · `360 ERP/EMS` · `Zero Day` · `Software Intelligence Platform` · `Nobatvakil AI`
 
 ---
 
