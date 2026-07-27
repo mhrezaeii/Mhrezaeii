@@ -26,17 +26,14 @@
 
 # About Me
 
-I'm a **Python Developer** with a strong interest in **Cybersecurity**, **Artificial Intelligence**, and **Backend Engineering**.
+I build **security infrastructure**, **AI systems**, and **large-scale platforms**. From enterprise security suites and LLMs trained from scratch to virtual world operating systems and game engines — I work across the full stack.
 
-I enjoy building software that solves real-world security problems—from intelligent automation and AI-powered systems to security platforms and backend services.
+Currently focused on:
 
-Currently focusing on:
-
-- Cybersecurity Platforms
-- Python Backend Development
-- AI Engineering
-- Linux Infrastructure
-- Offensive Security
+- **Security Platforms** — SIEM, SOAR, PAM, WAF, DDoS protection
+- **AI Engineering** — LLM training, NLP, anomaly detection
+- **Systems Programming** — Rust, Go, C++, low-level networking
+- **Infrastructure** — Kubernetes, Docker, distributed systems
 
 ---
 
@@ -45,82 +42,165 @@ Currently focusing on:
 ### Languages
 
 <p>
-<img src="https://skillicons.dev/icons?i=python,cpp,bash"/>
+<img src="https://skillicons.dev/icons?i=python,rust,go,cpp,cs,ts,js,bash"/>
 </p>
 
-### Backend
+### Backend & Frameworks
 
 <p>
-<img src="https://skillicons.dev/icons?i=fastapi,flask,django"/>
+<img src="https://skillicons.dev/icons?i=fastapi,flask,django,nextjs,dotnet"/>
 </p>
 
-### Databases
+### Frontend
 
 <p>
-<img src="https://skillicons.dev/icons?i=postgres,mysql,redis"/>
+<img src="https://skillicons.dev/icons?i=react,ts,tailwind"/>
 </p>
 
-### DevOps & Infrastructure
+### Databases & Storage
 
 <p>
-<img src="https://skillicons.dev/icons?i=docker,linux,git,github,nginx"/>
+<img src="https://skillicons.dev/icons?i=postgres,mysql,redis,sqlite"/>
 </p>
 
 ### AI & ML
 
 <p>
-<img src="https://skillicons.dev/icons?i=tensorflow,pytorch"/>
+<img src="https://skillicons.dev/icons?i=pytorch,tensorflow"/>
+</p>
+<p>
+<b>GGUF · HuggingFace · ChromaDB · Scikit-learn · Transformers</b>
+</p>
+
+### DevOps & Infrastructure
+
+<p>
+<img src="https://skillicons.dev/icons?i=docker,kubernetes,nginx,linux,git,github"/>
+</p>
+
+### Game Development
+
+<p>
+<img src="https://skillicons.dev/icons?i=unreal"/>
 </p>
 
 ---
 
 # Featured Projects
 
-## 🛡️ Aegis
+## 🛡️ Dazho Security Platform (Aegis)
 
-Enterprise cybersecurity platform designed to unify security operations into a single architecture.
+Security Hypervisor — an enterprise platform evolving from SIEM into a unified security operating system.
 
-**Highlights**
+**14 Rust microservices** · React/TypeScript dashboard · ADL detection language · 43 rules across 5 packs · MITRE ATT&CK mapped · NATS messaging · PostgreSQL · Redis
 
-- Security Platform
-- SIEM Concepts
-- Detection Engine
-- Security Graph
-- Modular Architecture
+`Rule Engine` `Alert Service` `Incident Management` `Search` `Ingest` `Asset` `SOAR` `Report` `Threat Intel`
 
 ---
 
-## ⚖️ NobatVakil AI
+## 🌐 Dazho Cloud
 
-AI-powered legal assistant for Persian legal workflows.
+AI-powered secure edge platform combining WAF, 3-tier CDN, 6-strategy load balancer, L3/L4/L7 DDoS protection, bot management, API security, GraphQL/WebSocket protection, and DLP.
 
-**Highlights**
-
-- Legal Document Analysis
-- AI-assisted Draft Generation
-- Persian NLP
-- Multi-Agent Architecture
+**851 passing tests** · ML ensemble detectors · Air-gapped / K8s / Docker ready
 
 ---
 
-## 🔐 Security Tooling
+## 🔐 PAM — Privileged Access Management
 
-A collection of Python-based security utilities including:
+Enterprise-grade zero-trust PAM system. Credential vault, SSH/RDP/database proxy, JIT access, session recording, compliance tooling.
 
-- Network Analysis
-- Automation
-- Security Scripts
-- Offensive Security Tools
+**1815 tests · 100% coverage** · FastAPI backend · Next.js 15 / React 19 frontend
 
 ---
 
-# Current Focus
+## 📡 AnomalyTrafficDetector
 
-- Building cybersecurity products
-- AI-assisted automation
-- Python backend systems
-- Network security
-- Learning Rust & Go
+AI-powered network anomaly detection with multi-model ensemble: Isolation Forest + Autoencoder + LSTM + XGBoost.
+
+**F1 = 0.99** on CICIDS-2017 · Zero-day ready · Real-time dashboard · Slack / PagerDuty / Splunk integration · Fully on-premise
+
+---
+
+## 🧨 DeepPacket_Red
+
+GAN-based network packet morphing tool that evades IDS/IPS by reconstructing packet headers while preserving payload data.
+
+**Generator (820k params) + Discriminator** · 128-dim feature extraction · **89% evasion rate vs Snort** · Cross-platform (Linux/Windows) · TensorFlow · Scapy
+
+---
+
+## 🔍 SecureCodeAudit
+
+Static code security analyzer with regex engine + taint tracking + data-flow analysis. Detects eval(), shell injection, hardcoded secrets, SQLi patterns, and more.
+
+**Zero dependencies** · Python · C++ · JavaScript · TypeScript · Go · **Solidity** · Extensible JSON rules · CI/CD ready
+
+---
+
+## ⚙️ AutoExploit_Piper
+
+Automated web exploitation pipeline — crawls, fuzzes, and detects XSS, SQLi, LFI, and SSTI with dynamic payload generation and detailed JSON reporting.
+
+**Crawler → Fuzzer → Detector → Reporter** · Built-in vulnerable test server · Threaded · ~90% detection accuracy
+
+---
+
+## 🔒 OfflineGuardian
+
+Lightweight offline intrusion detection system (IDS) using Random Forest on 20-dim packet features. Fully air-gapped — no data leaves the network.
+
+**~0.5ms inference per packet** · 85-95% real-world accuracy · Live capture + PCAP analysis · JSON alert logs · Scapy + scikit-learn
+
+---
+
+## 🧠 Legal-LLM
+
+Training a **7B-parameter Persian legal LLM from scratch**. Full pipeline: BPE tokenizer (48K vocab), GPT-style pretraining (GQA + RoPE + SiLU), distillation, LoRA SFT, DPO alignment, GGUF export.
+
+---
+
+## ⚖️ Nobatvakil AI
+
+AI-powered Persian legal assistant. Multi-brain architecture for pleading drafting, courtroom simulation, and judicial assistance.
+
+FastAPI · GGUF + HuggingFace · RAG (ChromaDB) · Persian NLP (hazm) · Docker
+
+---
+
+## 🖥️ Nexora — Virtual World OS
+
+A Virtual World Operating System (VWOS) enabling millions of simultaneous users across virtual worlds.
+
+**Rust** core (ECS, networking) · **Go** backend services · **TypeScript/React** web panel · gRPC · Protobuf · QUIC · PostgreSQL · Redis · ClickHouse · Kubernetes
+
+---
+
+## 🤖 MY_J.A.R.V.I.S.
+
+Full Persian-language intelligent assistant inspired by Marvel's Jarvis. 30 features including natural conversation (GGUF LLM), voice control, smart home control, face/object detection, SQLite memory.
+
+---
+
+## 🏢 360 ERP/EMS
+
+Enterprise ERP/EMS backend — dual-mode (Cloud & Classic) monolithic system.
+
+**260 API endpoints** · **144 database tables** · FastAPI · PostgreSQL 17 · MinIO · Redis · Nginx
+
+---
+
+## 🎮 Zero Day
+
+Open-world hacker thriller game built with **Unreal Engine 5.4**. Story-driven — a hacker named Kian "K-Root" Razavi in a cyberpunk Neo-Bay city controlled by Atlas Corp.
+
+---
+
+## 🧩 Software Intelligence Platform
+
+Unified platform for software engineering intelligence — architecture design from raw ideas, automatic codebase understanding, dependency extraction, and roadmap generation.
+
+Python 3.11+ · Node.js 20+ · Modular multi-app architecture
 
 ---
 
