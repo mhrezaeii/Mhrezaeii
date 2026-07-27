@@ -28,7 +28,7 @@
 
 I design systems at the intersection of **cybersecurity**, **distributed systems**, and **artificial intelligence**—building long-lived infrastructure rather than short-lived applications.
 
-As founder of **Dazho Studio**, I'm working toward an ecosystem of security and AI products that enables organizations to operate entirely on self-hosted infrastructure.
+As Co-founder of **Dazho Studio**, I'm working toward an ecosystem of security and AI products that enables organizations to operate entirely on self-hosted infrastructure.
 
 ---
 
