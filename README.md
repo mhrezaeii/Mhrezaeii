@@ -24,79 +24,59 @@
 
 ---
 
-# About
+# Mission
 
-I design systems that live at the intersection of **cybersecurity**, **distributed systems**, and **artificial intelligence**. My work is focused on building long-lived infrastructure rather than short-lived applications—platforms that grow, compose, and endure.
+I design systems at the intersection of **cybersecurity**, **distributed systems**, and **artificial intelligence**—building long-lived infrastructure rather than short-lived applications.
 
-I'm the founder of **Dazho Studio**, where we build enterprise security and AI infrastructure.
-
----
-
-# Vision
-
-My goal is to build an ecosystem of security and AI products that enables organizations to operate entirely on self-hosted infrastructure—from network protection and identity management to AI-assisted security operations.
-
-Every project I work on is a piece of this picture.
+As founder of **Dazho Studio**, I'm working toward an ecosystem of security and AI products that enables organizations to operate entirely on self-hosted infrastructure.
 
 ---
 
-```
-                          ┌──────────────────────┐
-                          │   Dazho Security     │
-                          │   Hypervisor (Aegis) │
-                          └──────────┬───────────┘
-                                     │
-              ┌──────────────────────┼──────────────────────┐
-              ▼                      ▼                      ▼
-   ┌──────────────────┐   ┌──────────────────┐   ┌──────────────────┐
-   │   Dazho Cloud    │   │  PAM / Identity  │   │  Threat Intel    │
-   │  (Edge Security) │   │  (Access Mgmt)   │   │  (Intelligence)  │
-   └──────────────────┘   └──────────────────┘   └──────────────────┘
-                                     │
-                                     ▼
-                   ┌──────────────────────────────┐
-                   │     AI Engine / LLM Layer     │
-                   │  (Legal-LLM · Nobatvakil ·    │
-                   │   Anomaly Detection)          │
-                   └──────────────────────────────┘
-                                     │
-                                     ▼
-                   ┌──────────────────────────────┐
-                   │    Infrastructure Layer      │
-                   │  (Nexora VWOS · 360 ERP ·    │
-                   │   Zero Day Game Engine)      │
-                   └──────────────────────────────┘
+# Engineering Principles
+
+`Security by Design` · `Self-Hosted First` · `Performance Matters` · `Infrastructure over Applications` · `Composability`
+
+---
+
+```mermaid
+graph TD
+    A[Aegis Security Hypervisor] --> B[Dazho Cloud Edge]
+    A --> C[PAM / Identity]
+    A --> D[Threat Intelligence]
+    B --> E[AI Engine Layer]
+    C --> E
+    D --> E
+    E --> F[Nexora VWOS]
+    E --> G[LLM Platform]
 ```
 
 ---
 
-# Currently Building
+# Current Focus
 
-- **Aegis** — Security Hypervisor (Rust, 14 microservices)
-- **Persian Legal LLM** — 7B parameter model trained from scratch
-- **Nexora** — Virtual World Operating System (Rust + Go)
+- Building the **Aegis Security Hypervisor** — 14 Rust microservices
+- Developing a **Persian legal foundation model** — tokenizer, pretraining, alignment, GGUF
+- Architecting **Nexora** — a Virtual World Operating System (Rust + Go)
 
 ---
 
-# Core Technologies
+# Core Expertise
 
-### Languages
+### Systems Programming
 
-<p>
-<img src="https://skillicons.dev/icons?i=python,rust,go,cpp,cs,ts,js,bash"/>
-</p>
+`Rust` `Go` `C++` `Python` `C#` `TypeScript`
 
-### Backend & Infrastructure
+### Security Engineering
 
-<p>
-<img src="https://skillicons.dev/icons?i=fastapi,nextjs,dotnet,postgres,redis,docker,kubernetes,nginx,linux"/>
-</p>
+`SIEM` `SOAR` `PAM` `WAF` `DDoS` `IDS/IPS` `Zero Trust` `ADL`
 
-### AI & ML
+### AI Engineering
 
-<p>
-<img src="https://skillicons.dev/icons?i=pytorch,tensorflow"/>
-</p>
+`PyTorch` `TensorFlow` `LLM` `RAG` `GNN` `Anomaly Detection`
+
+### Cloud Infrastructure
+
+`Docker` `Kubernetes` `Kafka` `PostgreSQL` `Redis` `NATS` `Nginx`
 
 ---
 
@@ -104,60 +84,67 @@ Every project I work on is a piece of this picture.
 
 ## 🛡️ Aegis — Dazho Security Platform
 
-Enterprise Security Hypervisor — 14 Rust microservices evolving from SIEM into a unified security operating system.
+Enterprise Security Hypervisor — 14 Rust microservices evolving from SIEM into a unified security OS.
 
 `Rule Engine` `Alert Service` `Incident Management` `SOAR` `Threat Intel` `Search` `Ingest` `Asset`
 
-**Rust · React · TypeScript · PostgreSQL · Redis · NATS · ADL**
+**Rust · React · PostgreSQL · Redis · NATS**
+
+→ [Repository](https://github.com/mhrezaeii) · [Architecture](https://github.com/mhrezaeii)
 
 ---
 
 ## 🌐 Dazho Cloud
 
-AI-powered secure edge platform combining WAF, CDN, load balancing, DDoS protection, and API security for air-gapped and cloud deployments.
+AI-powered secure edge platform combining WAF, CDN, load balancing, DDoS protection, and API security.
 
 **Python · FastAPI · ML Ensembles · Docker · K8s**
+
+→ [Repository](https://github.com/mhrezaeii)
 
 ---
 
 ## 🔐 PAM — Privileged Access Management
 
-Zero-trust PAM system with credential vault, session proxy (SSH/RDP/DB), JIT access, and compliance tooling.
+Zero-trust PAM with credential vault, session proxy (SSH/RDP/DB), JIT access, and compliance tooling.
 
 **FastAPI · Next.js 15 · React 19 · PostgreSQL**
+
+→ [Repository](https://github.com/mhrezaeii)
 
 ---
 
 ## 🧠 Legal-LLM
 
-A 7-billion parameter Persian legal language model trained from scratch. Full pipeline: tokenizer, pretraining, SFT, alignment, and GGUF deployment.
+Building a Persian legal foundation model — BPE tokenizer, GPT-style pretraining, SFT, DPO alignment, GGUF deployment.
 
-**PyTorch · Transformers · LoRA · DPO · llama.cpp**
+**PyTorch · Transformers · LoRA · llama.cpp**
+
+→ [Repository](https://github.com/mhrezaeii)
 
 ---
 
 ## 🖥️ Nexora — Virtual World OS
 
-A Virtual World Operating System (VWOS) built for millions of concurrent users. Rust core with Go services and a React web panel.
+A Virtual World Operating System for millions of concurrent users. Rust core with Go services and React web panel.
 
-**Rust · Go · TypeScript · React · gRPC · QUIC · ClickHouse · K8s**
+**Rust · Go · TypeScript · gRPC · QUIC · ClickHouse · K8s**
+
+→ [Repository](https://github.com/mhrezaeii)
 
 ---
 
 # Roadmap
 
-```
-2026
-
-✓ SIEM Platform (Aegis Core)
-✓ Cloud Security Edge (Dazho Cloud)
-✓ Privileged Access Management (PAM)
-✓ Persian Legal LLM (7B)
-
-⬜ Endpoint Detection & Response (EDR)
-⬜ Extended Detection & Response (XDR)
-⬜ User & Entity Behavior Analytics (UEBA)
-⬜ AI-Powered SOC Assistant
+```mermaid
+timeline
+    title 2026 — Security & AI Platform
+    H1 : SIEM Platform (Aegis Core)
+        : Cloud Security Edge (Dazho Cloud)
+    H2 : Privileged Access Management (PAM)
+        : Persian Legal LLM
+    2027 : EDR & XDR
+         : UEBA & AI SOC
 ```
 
 ---
@@ -182,7 +169,27 @@ A Virtual World Operating System (VWOS) built for millions of concurrent users. 
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=mhrezaeii&theme=github-compact"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=mhrezaeii&theme=transparent&hide_border=true"/>
+
+</div>
+
+<br>
+
+<div align="center">
+
+<img src="https://github-profile-trophy.vercel.app/?username=mhrezaeii&theme=darkhub&no-frame=true&row=1&column=6"/>
+
+</div>
+
+<br>
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mhrezaeii/mhrezaeii/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mhrezaeii/mhrezaeii/output/github-contribution-grid-snake.svg">
+  <img alt="Snake animation" src="https://raw.githubusercontent.com/mhrezaeii/mhrezaeii/output/github-contribution-grid-snake.svg">
+</picture>
 
 </div>
 
